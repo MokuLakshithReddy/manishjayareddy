@@ -49,7 +49,7 @@ const services = [
   {
     icon: Brush,
     title: "Wall Printing",
-    desc: "Hand-painted murals, textures and custom artwork crafted for your space.",
+    desc: "Machine Printed murals, textures and custom artwork crafted for your space.",
   },
   {
     icon: Sofa,
