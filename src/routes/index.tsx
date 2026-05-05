@@ -522,8 +522,8 @@ function Home() {
               MJR Studio
             </div>
             <p className="mt-4 max-w-sm text-sm text-muted-foreground">
-              Hand-painted murals & interior design. Crafting walls people fall
-              in love with — one brushstroke at a time.
+              Machine Printed murals & interior design. Crafting walls people
+              fall in love with — one brushstroke at a time.
             </p>
             <div className="mt-6 flex gap-3">
               <a
