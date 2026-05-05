@@ -442,7 +442,7 @@ function Home() {
                 <MapPin className="mt-1 h-5 w-5 text-accent" />
                 <div>
                   <div className="text-sm text-muted-foreground">Studio</div>
-                  <div className="font-medium">Mumbai · serving across India</div>
+                  <div className="font-medium">Hyderabad · serving across India</div>
                 </div>
               </div>
             </div>
@@ -559,7 +559,7 @@ function Home() {
               Studio
             </div>
             <ul className="mt-4 space-y-2 text-sm">
-              <li>Mumbai, India</li>
+              <li>Hyderabad, India</li>
               <li>mjrwallprinters@gmail.com</li>
               <li>+91 9347081316</li>
             </ul>
