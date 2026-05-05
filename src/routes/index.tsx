@@ -130,9 +130,8 @@ function Home() {
               <span className="h-1.5 w-1.5 rounded-full bg-accent" />
               Est. 2014 · Wall Art & Interiors
             </span>
-            <h1 className="mt-6 text-balance text-5xl leading-[1.02] sm:text-6xl lg:text-[5.5rem]">
-              Transform Your Walls{" "}
-              <span className="italic text-accent">Into Art</span>.
+            <h1 className="bg-inherit text-black">
+              WALLS PRINTED
             </h1>
             <p className="mt-6 max-w-xl text-lg leading-relaxed text-foreground/75">
               Creative wall paintings & interior design that bring spaces to
