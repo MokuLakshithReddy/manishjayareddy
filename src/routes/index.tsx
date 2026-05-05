@@ -128,7 +128,7 @@ function Home() {
           <div className="max-w-3xl animate-fade-up">
             <span className="inline-flex items-center gap-2 rounded-full border border-foreground/20 bg-background/40 px-4 py-1.5 text-xs uppercase tracking-[0.25em] text-foreground/80 backdrop-blur">
               <span className="h-1.5 w-1.5 rounded-full bg-accent" />
-              Est. 2014 · Wall Art & Interiors
+              EST. 2023 · WALL PRINTING & INTERIORS
             </span>
             <h1 className="bg-inherit text-black text-4xl font-serif whitespace-pre-line">
               {"\n\n"}Make Your Walls Into Imaginations
