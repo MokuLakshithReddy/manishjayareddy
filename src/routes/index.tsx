@@ -28,13 +28,13 @@ import p6 from "@/assets/portfolio-6.jpg";
 export const Route = createFileRoute("/")({
   head: () => ({
     meta: [
-      { title: "Ateliér Studio — Wall Art, Murals & Interior Design" },
+      { title: "MJR Studio — Wall Art, Murals & Interior Design" },
       {
         name: "description",
         content:
           "Bespoke wall paintings, hand-crafted murals and interior design that transform homes, cafes and offices into living art.",
       },
-      { property: "og:title", content: "Ateliér Studio — Wall Art & Interiors" },
+      { property: "og:title", content: "MJR Studio — Wall Art & Interiors" },
       {
         property: "og:description",
         content: "Creative wall paintings & interior design that bring spaces to life.",
@@ -197,7 +197,7 @@ function Home() {
               <span className="italic text-accent">walls become stories</span>.
             </h2>
             <p className="mt-6 text-base leading-relaxed text-muted-foreground">
-              Ateliér is a small studio led by artist & designer Maya Rao. For
+              MJR is a small studio led by artist & designer Maya Rao. For
               over a decade we've turned blank walls into the most photographed
               corners of homes, cafes and offices — blending hand-painted
               craftsmanship with contemporary interior design.
@@ -435,7 +435,7 @@ function Home() {
                 <Mail className="mt-1 h-5 w-5 text-accent" />
                 <div>
                   <div className="text-sm text-muted-foreground">Email</div>
-                  <div className="font-medium">hello@atelier.studio</div>
+                  <div className="font-medium">hello@mjr.studio</div>
                 </div>
               </div>
               <div className="flex items-start gap-4">
@@ -519,7 +519,7 @@ function Home() {
         <div className="mx-auto grid max-w-7xl gap-10 px-6 py-16 lg:grid-cols-4 lg:px-10">
           <div className="lg:col-span-2">
             <div className="font-display text-3xl">
-              Ateli<span className="text-accent">é</span>r Studio
+              MJR Studio
             </div>
             <p className="mt-4 max-w-sm text-sm text-muted-foreground">
               Hand-painted murals & interior design. Crafting walls people fall
@@ -560,14 +560,14 @@ function Home() {
             </div>
             <ul className="mt-4 space-y-2 text-sm">
               <li>Mumbai, India</li>
-              <li>hello@atelier.studio</li>
+              <li>hello@mjr.studio</li>
               <li>+91 98765 43210</li>
             </ul>
           </div>
         </div>
         <div className="border-t border-border">
           <div className="mx-auto flex max-w-7xl flex-col items-center justify-between gap-3 px-6 py-6 text-xs text-muted-foreground sm:flex-row lg:px-10">
-            <div>© {new Date().getFullYear()} Ateliér Studio. All rights reserved.</div>
+            <div>© {new Date().getFullYear()} MJR Studio. All rights reserved.</div>
             <div>Crafted with brush & pixel.</div>
           </div>
         </div>

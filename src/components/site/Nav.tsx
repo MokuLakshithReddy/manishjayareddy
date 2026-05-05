@@ -31,7 +31,7 @@ export function Nav() {
       <div className="mx-auto flex max-w-7xl items-center justify-between px-6 py-4 lg:px-10">
         <a href="#top" className="flex items-center gap-2">
           <span className="font-display text-2xl tracking-tight">
-            Ateli<span className="text-accent">é</span>r
+            MJR
           </span>
           <span className="hidden text-xs uppercase tracking-[0.3em] text-muted-foreground sm:inline">
             Studio
