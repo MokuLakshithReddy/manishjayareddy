@@ -428,7 +428,7 @@ function Home() {
                 <Phone className="mt-1 h-5 w-5 text-accent" />
                 <div>
                   <div className="text-sm text-muted-foreground">Call</div>
-                  <div className="font-medium">+91 98765 43210</div>
+                  <div className="font-medium">+91 9347081316</div>
                 </div>
               </div>
               <div className="flex items-start gap-4">
@@ -561,7 +561,7 @@ function Home() {
             <ul className="mt-4 space-y-2 text-sm">
               <li>Mumbai, India</li>
               <li>hello@mjr.studio</li>
-              <li>+91 98765 43210</li>
+              <li>+91 9347081316</li>
             </ul>
           </div>
         </div>
