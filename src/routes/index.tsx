@@ -48,7 +48,7 @@ export const Route = createFileRoute("/")({
 const services = [
   {
     icon: Brush,
-    title: "Wall Painting",
+    title: "Wall Printing",
     desc: "Hand-painted murals, textures and custom artwork crafted for your space.",
   },
   {
