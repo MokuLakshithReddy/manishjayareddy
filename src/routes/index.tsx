@@ -32,7 +32,7 @@ export const Route = createFileRoute("/")({
       {
         name: "description",
         content:
-          "Bespoke wall paintings, hand-crafted murals and interior design that transform homes, cafes and offices into living art.",
+          "At MJR Studio, we bring spaces to life with premium wall printing and creative interior design solutions. From custom wall graphics to modern interiors, we design spaces that reflect your personality, style, and vision.",
       },
       { property: "og:title", content: "MJR Studio — Wall Art & Interiors" },
       {
