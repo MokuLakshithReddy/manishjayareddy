@@ -416,7 +416,7 @@ function Home() {
                 <Phone className="mt-1 h-5 w-5 text-accent" />
                 <div>
                   <div className="text-sm text-muted-foreground">Call</div>
-                  <div className="font-medium whitespace-pre-line">+91 9347081316 ,{"\n"}+91 8333828574</div>
+                  <div className="font-medium whitespace-pre-line">Wall Printings : +91 8333828574 {"\n"}Interiors : +91 9885685294</div>
                 </div>
               </div>
               <div className="flex items-start gap-4">
@@ -560,7 +560,7 @@ function Home() {
             <ul className="mt-4 space-y-2 text-sm">
               <li>Hyderabad, India</li>
               <li>mjrwallprinters@gmail.com</li>
-              <li className="whitespace-pre-line">+91 9347081316 ,{"\n"}+91 8333828574</li>
+              <li className="whitespace-pre-line">Wall Printings : +91 8333828574 {"\n"}Interiors : +91 9885685294</li>
             </ul>
           </div>
         </div>
