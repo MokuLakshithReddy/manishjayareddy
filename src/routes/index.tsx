@@ -134,8 +134,7 @@ function Home() {
               {"\n\n"}Make Your Walls Into Imaginations
             </h1>
             <p className="mt-6 max-w-xl text-lg leading-relaxed text-foreground/75">
-              Creative wall paintings & interior design that bring spaces to
-              life — hand-crafted by artists who treat every wall like a canvas.
+              At MJR Studio, we bring spaces to life with premium wall printing and creative interior design solutions. From custom wall graphics to modern interiors, we design spaces that reflect your personality, style, and vision.
             </p>
             <div className="mt-9 flex flex-wrap items-center gap-4">
               <a
