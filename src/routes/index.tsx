@@ -185,7 +185,7 @@ function Home() {
             />
             <div className="absolute -bottom-6 -right-4 hidden rounded-sm bg-accent px-6 py-5 text-accent-foreground sm:block">
               <div className="font-display text-3xl">10+</div>
-              <div className="text-xs uppercase tracking-widest">Years of craft</div>
+              <div className="text-xs uppercase tracking-widest">Years of experience</div>
             </div>
           </div>
           <div>
