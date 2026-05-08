@@ -464,6 +464,21 @@ function Home() {
             <div className="space-y-5">
               <div>
                 <label className="text-xs uppercase tracking-widest text-muted-foreground">
+                  Service
+                </label>
+                <div className="mt-3 flex gap-6 text-sm">
+                  <label className="inline-flex items-center gap-2">
+                    <input type="radio" name="service" value="wall" defaultChecked className="accent-foreground" />
+                    Wall Printings
+                  </label>
+                  <label className="inline-flex items-center gap-2">
+                    <input type="radio" name="service" value="interiors" className="accent-foreground" />
+                    Interiors
+                  </label>
+                </div>
+              </div>
+              <div>
+                <label className="text-xs uppercase tracking-widest text-muted-foreground">
                   Name
                 </label>
                 <input
