@@ -527,7 +527,9 @@ function Home() {
             </p>
             <div className="mt-6 flex gap-3">
               <a
-                href="#"
+                href="https://www.instagram.com/mjrwallcreations_interiors?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw=="
+                target="_blank"
+                rel="noopener noreferrer"
                 aria-label="Instagram"
                 className="flex h-10 w-10 items-center justify-center rounded-full border border-border transition-colors hover:border-foreground"
               >
