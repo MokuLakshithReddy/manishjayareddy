@@ -209,16 +209,10 @@ function Home() {
             </p>
 
             <div className="mt-10 grid grid-cols-2 gap-6 border-t border-border pt-8">
-              <div>
-                <div className="font-display text-2xl">Hand-crafted</div>
-                <p className="mt-1 text-sm text-muted-foreground">
-                  No stencils, no shortcuts. Just brushwork.
-                </p>
-              </div>
-              <div>
-                <div className="font-display text-2xl">Made for you</div>
-                <p className="mt-1 text-sm text-muted-foreground">
-                  Designed around your space and story.
+              <div className="col-span-2">
+                <div className="font-display text-2xl">At MJR Studio</div>
+                <p className="mt-2 text-base leading-relaxed text-muted-foreground">
+                  At MJR Studio, we bring spaces to life with premium wall printing and creative interior design solutions. From custom wall graphics to modern interiors, we design spaces that reflect your personality, style, and vision.
                 </p>
               </div>
             </div>
