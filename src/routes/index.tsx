@@ -197,15 +197,10 @@ function Home() {
               <span className="italic text-accent">walls become stories</span>.
             </h2>
             <p className="mt-6 text-base leading-relaxed text-muted-foreground">
-              MJR is a small studio led by artist & designer Maya Rao. For
-              over a decade we've turned blank walls into the most photographed
-              corners of homes, cafes and offices — blending hand-painted
-              craftsmanship with contemporary interior design.
+              MJR Studio is a leading design studio specializing in cutting-edge wall printing and interior transformations. Based in Hyderabad and serving clients across India, we've turned countless blank walls into stunning visual masterpieces.
             </p>
             <p className="mt-4 text-base leading-relaxed text-muted-foreground">
-              We believe a space should feel like the people inside it. Every
-              project is custom, every brushstroke deliberate, every reveal
-              quietly cinematic.
+              By blending advanced printing technology with creative interior design expertise, we help homeowners and businesses create environments that are both beautiful and inspiring.
             </p>
 
             <div className="mt-10 grid grid-cols-2 gap-6 border-t border-border pt-8">
