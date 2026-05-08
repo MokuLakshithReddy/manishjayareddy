@@ -155,7 +155,7 @@ function Home() {
 
           <div className="mt-16 grid grid-cols-3 gap-6 border-t border-foreground/15 pt-8 max-w-xl">
             {[
-              ["240+", "Walls painted"],
+              ["240+", "Studio"],
               ["10 yrs", "Studio craft"],
               ["98%", "Repeat clients"],
             ].map(([k, v]) => (
