@@ -454,8 +454,10 @@ function Home() {
               const name = String(data.get("name") || "");
               const phone = String(data.get("phone") || "");
               const message = String(data.get("message") || "");
-              const text = `Hi MJR Studio,%0A%0AName: ${encodeURIComponent(name)}%0APhone: ${encodeURIComponent(phone)}%0A%0A${encodeURIComponent(message)}`;
-              window.open(`https://wa.me/919347081316?text=${text}`, "_blank", "noopener,noreferrer");
+              const service = String(data.get("service") || "wall");
+              const target = service === "interiors" ? "919885685294" : "918333828574";
+              const text = `Hi MJR Studio,%0A%0AService: ${encodeURIComponent(service === "interiors" ? "Interiors" : "Wall Printings")}%0AName: ${encodeURIComponent(name)}%0APhone: ${encodeURIComponent(phone)}%0A%0A${encodeURIComponent(message)}`;
+              window.open(`https://wa.me/${target}?text=${text}`, "_blank", "noopener,noreferrer");
             }}
             className="rounded-sm border border-border bg-card p-8 lg:p-10"
           >
