@@ -449,7 +449,13 @@ function Home() {
           <form
             onSubmit={(e) => {
               e.preventDefault();
-              alert("Thanks! We'll be in touch within 24 hours.");
+              const form = e.currentTarget;
+              const data = new FormData(form);
+              const name = String(data.get("name") || "");
+              const phone = String(data.get("phone") || "");
+              const message = String(data.get("message") || "");
+              const text = `Hi MJR Studio,%0A%0AName: ${encodeURIComponent(name)}%0APhone: ${encodeURIComponent(phone)}%0A%0A${encodeURIComponent(message)}`;
+              window.open(`https://wa.me/919347081316?text=${text}`, "_blank", "noopener,noreferrer");
             }}
             className="rounded-sm border border-border bg-card p-8 lg:p-10"
           >
@@ -460,6 +466,7 @@ function Home() {
                 </label>
                 <input
                   required
+                  name="name"
                   maxLength={80}
                   type="text"
                   className="mt-2 w-full border-b border-border bg-transparent py-3 text-foreground outline-none transition-colors focus:border-foreground"
@@ -472,6 +479,7 @@ function Home() {
                 </label>
                 <input
                   required
+                  name="phone"
                   maxLength={20}
                   type="tel"
                   className="mt-2 w-full border-b border-border bg-transparent py-3 text-foreground outline-none transition-colors focus:border-foreground"
@@ -484,6 +492,7 @@ function Home() {
                 </label>
                 <textarea
                   required
+                  name="message"
                   maxLength={1000}
                   rows={4}
                   className="mt-2 w-full border-b border-border bg-transparent py-3 text-foreground outline-none transition-colors focus:border-foreground"
