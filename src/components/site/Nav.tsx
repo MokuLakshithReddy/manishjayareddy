@@ -37,7 +37,7 @@ export function Nav() {
             className="h-12 w-12 object-contain"
           />
           <span className="hidden text-xs uppercase tracking-[0.3em] text-muted-foreground sm:inline">
-            Walls Printed
+            MJR Studio
           </span>
         </a>
 
