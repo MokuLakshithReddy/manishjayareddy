@@ -1,4 +1,5 @@
 import { useEffect, useState } from "react";
+import logoMjr from "@/assets/logo-mjr.png";
 
 const links = [
   { href: "#about", label: "About" },
@@ -29,12 +30,14 @@ export function Nav() {
       }`}
     >
       <div className="mx-auto flex max-w-7xl items-center justify-between px-6 py-4 lg:px-10">
-        <a href="#top" className="flex items-center gap-2">
-          <span className="font-display text-2xl tracking-tight">
-            MJR
-          </span>
+        <a href="#top" className="flex items-center gap-3">
+          <img
+            src={logoMjr}
+            alt="MJR Modern Wall Creations & Interiors logo"
+            className="h-12 w-12 object-contain"
+          />
           <span className="hidden text-xs uppercase tracking-[0.3em] text-muted-foreground sm:inline">
-            Studio
+            Walls Printed
           </span>
         </a>
 
