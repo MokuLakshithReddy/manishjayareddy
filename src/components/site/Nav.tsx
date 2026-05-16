@@ -4,7 +4,8 @@ import logoMjr from "@/assets/logo-mjr.png";
 const links = [
   { href: "#about", label: "About" },
   { href: "#services", label: "Services" },
-  { href: "#portfolio", label: "Portfolio" },
+  { href: "#portfolio", label: "Wall Art" },
+  { href: "#interiors", label: "Interiors" },
   { href: "#process", label: "Process" },
   { href: "#testimonials", label: "Reviews" },
   { href: "#contact", label: "Contact" },
