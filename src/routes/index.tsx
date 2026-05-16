@@ -707,7 +707,8 @@ function Home() {
             <ul className="mt-4 space-y-2 text-sm">
               <li><a href="#about" className="hover:text-accent">About</a></li>
               <li><a href="#services" className="hover:text-accent">Services</a></li>
-              <li><a href="#portfolio" className="hover:text-accent">Portfolio</a></li>
+              <li><a href="#portfolio" className="hover:text-accent">Wall Art</a></li>
+              <li><a href="#interiors" className="hover:text-accent">Interiors</a></li>
               <li><a href="#process" className="hover:text-accent">Process</a></li>
             </ul>
           </div>
