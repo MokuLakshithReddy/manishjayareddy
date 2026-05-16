@@ -338,6 +338,114 @@ function Home() {
         </div>
       </section>
 
+      {/* INTERIORS */}
+      <section id="interiors" className="bg-secondary/40">
+        <div className="mx-auto max-w-7xl px-6 py-28 lg:px-10 lg:py-36">
+          <div className="flex flex-col items-start justify-between gap-6 md:flex-row md:items-end">
+            <div className="max-w-xl">
+              <span className="text-xs uppercase tracking-[0.3em] text-muted-foreground">
+                Interior designs
+              </span>
+              <h2 className="mt-4 text-balance text-4xl leading-tight sm:text-5xl">
+                Spaces we've shaped into{" "}
+                <span className="italic text-accent">stories</span>.
+              </h2>
+              <p className="mt-5 max-w-md text-base leading-relaxed text-muted-foreground">
+                A curated look at homes and rooms we've transformed — every detail
+                considered, every surface intentional.
+              </p>
+            </div>
+            <div className="flex flex-wrap gap-2">
+              {["All", "Living", "Bedroom", "Commercial"].map((c) => (
+                <button
+                  key={c}
+                  className="rounded-full border border-border px-4 py-2 text-xs uppercase tracking-widest text-foreground/70 transition-colors hover:border-foreground hover:text-foreground"
+                >
+                  {c}
+                </button>
+              ))}
+            </div>
+          </div>
+
+          <div className="mt-12 grid auto-rows-[240px] grid-cols-1 gap-4 sm:grid-cols-2 lg:grid-cols-4">
+            {interiors.map((it, idx) => (
+              <button
+                type="button"
+                key={it.title}
+                onClick={() => openLightbox(idx)}
+                className={`group relative overflow-hidden rounded-sm bg-muted text-left ${it.span}`}
+              >
+                <img
+                  src={it.src}
+                  alt={it.title}
+                  loading="lazy"
+                  className="h-full w-full object-cover transition-transform duration-[1.2s] ease-out group-hover:scale-105"
+                />
+                <div className="absolute inset-0 bg-gradient-to-t from-foreground/85 via-foreground/10 to-transparent opacity-0 transition-opacity duration-500 group-hover:opacity-100" />
+                <div className="absolute inset-x-0 bottom-0 translate-y-3 p-5 text-background opacity-0 transition-all duration-500 group-hover:translate-y-0 group-hover:opacity-100">
+                  <div className="text-[10px] uppercase tracking-widest text-background/70">
+                    Interior design
+                  </div>
+                  <div className="mt-1 font-display text-xl">{it.title}</div>
+                </div>
+              </button>
+            ))}
+          </div>
+
+          <div className="mt-14 flex justify-center">
+            <a
+              href="#contact"
+              className="group inline-flex items-center gap-3 rounded-full bg-foreground px-7 py-3.5 text-sm font-medium text-background transition-transform hover:-translate-y-0.5"
+            >
+              Start your interior project
+              <ArrowUpRight className="h-4 w-4 transition-transform group-hover:translate-x-0.5 group-hover:-translate-y-0.5" />
+            </a>
+          </div>
+        </div>
+      </section>
+
+      {/* LIGHTBOX */}
+      {lightbox !== null && (
+        <div
+          className="fixed inset-0 z-[100] flex items-center justify-center bg-foreground/95 p-4 sm:p-10"
+          onClick={closeLightbox}
+        >
+          <button
+            type="button"
+            aria-label="Close"
+            onClick={closeLightbox}
+            className="absolute right-4 top-4 rounded-full bg-background/10 p-2 text-background transition-colors hover:bg-background/20"
+          >
+            <X className="h-5 w-5" />
+          </button>
+          <button
+            type="button"
+            aria-label="Previous"
+            onClick={(e) => { e.stopPropagation(); prevImg(); }}
+            className="absolute left-3 top-1/2 -translate-y-1/2 rounded-full bg-background/10 p-3 text-background transition-colors hover:bg-background/20 sm:left-6"
+          >
+            <ChevronLeft className="h-6 w-6" />
+          </button>
+          <button
+            type="button"
+            aria-label="Next"
+            onClick={(e) => { e.stopPropagation(); nextImg(); }}
+            className="absolute right-3 top-1/2 -translate-y-1/2 rounded-full bg-background/10 p-3 text-background transition-colors hover:bg-background/20 sm:right-6"
+          >
+            <ChevronRight className="h-6 w-6" />
+          </button>
+          <img
+            src={interiors[lightbox].src}
+            alt={interiors[lightbox].title}
+            onClick={(e) => e.stopPropagation()}
+            className="max-h-full max-w-full rounded-sm object-contain shadow-2xl"
+          />
+          <div className="absolute bottom-6 left-1/2 -translate-x-1/2 text-xs uppercase tracking-[0.3em] text-background/70">
+            {interiors[lightbox].title} — {lightbox + 1} / {interiors.length}
+          </div>
+        </div>
+      )}
+
       {/* PROCESS */}
       <section id="process" className="bg-foreground text-background">
         <div className="mx-auto max-w-7xl px-6 py-28 lg:px-10 lg:py-36">
