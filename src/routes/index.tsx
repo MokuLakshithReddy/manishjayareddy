@@ -294,7 +294,7 @@ function Home() {
         <div className="flex flex-col items-start justify-between gap-6 md:flex-row md:items-end">
           <div className="max-w-xl">
             <span className="text-xs uppercase tracking-[0.3em] text-muted-foreground">
-              Selected work
+              Wall printings
             </span>
             <h2 className="mt-4 text-balance text-4xl leading-tight sm:text-5xl">
               A gallery of{" "}
