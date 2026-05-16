@@ -1,4 +1,5 @@
 import { createFileRoute } from "@tanstack/react-router";
+import { useState } from "react";
 import {
   ArrowUpRight,
   Brush,
@@ -13,6 +14,9 @@ import {
   Mail,
   Phone,
   MapPin,
+  X,
+  ChevronLeft,
+  ChevronRight,
 } from "lucide-react";
 import { Nav } from "@/components/site/Nav";
 import { WhatsAppButton } from "@/components/site/WhatsAppButton";
@@ -24,6 +28,27 @@ import p3 from "@/assets/portfolio-3.jpg";
 import p4 from "@/assets/portfolio-4.jpg";
 import p5 from "@/assets/portfolio-5.jpg";
 import p6 from "@/assets/portfolio-6.jpg";
+import i1 from "@/assets/interiors/interior-1.jpg";
+import i2 from "@/assets/interiors/interior-2.jpg";
+import i3 from "@/assets/interiors/interior-3.jpg";
+import i4 from "@/assets/interiors/interior-4.jpg";
+import i5 from "@/assets/interiors/interior-5.jpg";
+import i6 from "@/assets/interiors/interior-6.jpg";
+import i7 from "@/assets/interiors/interior-7.jpg";
+import i8 from "@/assets/interiors/interior-8.jpg";
+import i9 from "@/assets/interiors/interior-9.jpg";
+
+const interiors = [
+  { src: i1, title: "Interior Project 01", span: "lg:col-span-2 lg:row-span-2" },
+  { src: i2, title: "Interior Project 02", span: "" },
+  { src: i3, title: "Interior Project 03", span: "" },
+  { src: i4, title: "Interior Project 04", span: "lg:col-span-2" },
+  { src: i5, title: "Interior Project 05", span: "" },
+  { src: i6, title: "Interior Project 06", span: "" },
+  { src: i7, title: "Interior Project 07", span: "" },
+  { src: i8, title: "Interior Project 08", span: "" },
+  { src: i9, title: "Interior Project 09", span: "lg:col-span-2" },
+];
 
 export const Route = createFileRoute("/")({
   head: () => ({
