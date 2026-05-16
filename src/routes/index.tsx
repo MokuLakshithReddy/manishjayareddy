@@ -132,6 +132,14 @@ const reviews = [
 ];
 
 function Home() {
+  const [lightbox, setLightbox] = useState<number | null>(null);
+  const openLightbox = (i: number) => setLightbox(i);
+  const closeLightbox = () => setLightbox(null);
+  const prevImg = () =>
+    setLightbox((i) => (i === null ? i : (i - 1 + interiors.length) % interiors.length));
+  const nextImg = () =>
+    setLightbox((i) => (i === null ? i : (i + 1) % interiors.length));
+
   return (
     <div id="top" className="relative min-h-screen bg-background text-foreground">
       <Nav />
