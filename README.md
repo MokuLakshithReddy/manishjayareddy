@@ -1,5 +1,8 @@
 # MJR Studio — Wall Art, Murals & Interior Design Website
 
+[![Forks](https://img.shields.io/github/forks/MokuLakshithReddy/manishjayareddy?style=flat-square)](https://github.com/MokuLakshithReddy/manishjayareddy/forks) [![Open Issues](https://img.shields.io/github/issues/MokuLakshithReddy/manishjayareddy?style=flat-square)](https://github.com/MokuLakshithReddy/manishjayareddy/issues)
+
+
 A responsive studio website showcasing wall printing, custom murals, residential and commercial interior projects, and a gallery of completed work. The page is structured as a single-scroll studio experience with service discovery, portfolio sections, testimonials, and contact actions.
 
 [![React](https://img.shields.io/badge/React-19-61DAFB?logo=react&logoColor=111)](https://react.dev/)
